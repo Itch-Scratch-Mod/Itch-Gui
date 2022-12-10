@@ -78,7 +78,7 @@
     "redux": "3.7.2",
     "redux-throttle": "0.1.1",
     "scratch-audio": "git+https://github.com/TurboWarp/scratch-audio.git#develop",
-    "scratch-blocks": "git+https://github.com/Itch-Scratch-Mod-Blocks.git#develop-builds",
+    "scratch-blocks": "git+https://github.com/Itch-Scratch-Mod/Itch-Blocks.git#develop-builds",
     "@turbowarp/scratch-l10n": "^3.999.20221007210204",
     "scratch-paint": "git+https://github.com/TurboWarp/scratch-paint.git#develop",
     "scratch-render": "git+https://github.com/Itch-Scratch-Mod/Itch-Render.git#develop",
