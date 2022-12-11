@@ -207,7 +207,6 @@ export default [
             />
         ),
         featured: true,
-        incompatibleWithScratch: true
     },
     {
         name: (
@@ -228,7 +227,6 @@ export default [
         ),
         featured: true,
         internetConnectionRequired: true,
-        incompatibleWithScratch: true
     },
     {
         name: (
@@ -248,7 +246,6 @@ export default [
             />
         ),
         featured: true,
-        incompatibleWithScratch: true
     },
     {
         name: (
@@ -269,7 +266,6 @@ export default [
             />
         ),
         featured: true,
-        incompatibleWithScratch: true
     },
     {
         name: (
@@ -289,7 +285,6 @@ export default [
             />
         ),
         featured: true,
-        incompatibleWithScratch: true
     },
     {
         name: (
@@ -310,7 +305,6 @@ export default [
             />
         ),
         featured: true,
-        incompatibleWithScratch: true
     },
     /*{
         name: (
@@ -331,7 +325,6 @@ export default [
             />
         ),
         featured: true,
-        incompatibleWithScratch: true
     },*/
     {
         name: (
@@ -352,7 +345,6 @@ export default [
         ),
         featured: true,
         internetConnectionRequired: true,
-        incompatibleWithScratch: true
     },
     {
         name: (
@@ -373,7 +365,6 @@ export default [
         ),
         featured: true,
         internetConnectionRequired: true,
-        incompatibleWithScratch: true
     },
     {
         name: 'Physics',
@@ -409,7 +400,6 @@ export default [
             />
         ),
         featured: true,
-        incompatibleWithScratch: true
     },
     {
         name: 'micro:bit',
