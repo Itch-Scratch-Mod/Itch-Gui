@@ -11060,13 +11060,13 @@ class MenuBar extends react__WEBPACK_IMPORTED_MODULE_7___default.a.Component {
       className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_36___default.a.menuBarItem
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
       className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_36___default.a.feedbackLink,
-      href: "https://scratch.mit.edu/discuss/topic/636814/",
+      href: "about:blank",
       rel: "noopener noreferrer",
       target: "_blank"
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_10__["default"], {
       className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_36___default.a.feedbackButton
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_3__["FormattedMessage"], {
-      defaultMessage: "PenguinMod Feedback",
+      defaultMessage: "Itch Feedback",
       id: "tw.feedbackButton"
     }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
       className: _menu_bar_css__WEBPACK_IMPORTED_MODULE_36___default.a.accountInfoGroup
@@ -17580,7 +17580,7 @@ const StoreProjectOptions = ({
   id: "tw.settingsModal.storeProjectOptions"
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_0__["FormattedMessage"] // eslint-disable-next-line max-len
 , {
-  defaultMessage: "Stores the selected settings in the project so they will be automatically applied when PenguinMod loads this project. Warp timer and disable compiler will not be saved.",
+  defaultMessage: "Stores the selected settings in the project so they will be automatically applied when Itch loads this project. Warp timer and disable compiler will not be saved.",
   id: "tw.settingsModal.storeProjectOptionsHelp"
 }))));
 
@@ -34624,7 +34624,7 @@ const myBlocks = function myBlocks() {
 }; // eslint-disable-next-line max-len
 
 
-const extraTurboWarpBlocks = "\n<block type=\"argument_reporter_boolean\"><field name=\"VALUE\">is compiled?</field></block>\n<block type=\"argument_reporter_boolean\"><field name=\"VALUE\">is PenguinMod or TurboWarp?</field></block>\n";
+const extraTurboWarpBlocks = "\n<block type=\"argument_reporter_boolean\"><field name=\"VALUE\">is compiled?</field></block>\n<block type=\"argument_reporter_boolean\"><field name=\"VALUE\">is Itch, PenguinMod or TurboWarp?</field></block>\n";
 /* eslint-enable no-unused-vars */
 
 const xmlOpen = '<xml style="display: none">';
