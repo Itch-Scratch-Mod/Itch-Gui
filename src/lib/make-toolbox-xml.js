@@ -627,7 +627,9 @@ const operators = function (isInitialSetup) {
         </block>
         ${blockSeparator}
         <block type="operator_and"/>
+        <block type="operator_nand"/>
         <block type="operator_or"/>
+        <block type="operator_xor"/>
         <block type="operator_not"/>
         ${blockSeparator}
         ${isInitialSetup ? '' : `
