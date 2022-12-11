@@ -24035,9 +24035,9 @@ __webpack_require__.r(__webpack_exports__);
 
 const getProjectTitleFromFilename = fileInputFilename => {
   if (!fileInputFilename) return ''; // only parse title with valid scratch project extensions
-  // (.sb, .sb2, and .sb3)
+  // (.sb, .sb2, .sb3 and .ich)
 
-  const matches = fileInputFilename.match(/^(.*)\.sb[23]?$/);
+  const matches = fileInputFilename.match(/^(.*)\.(sb[23]?|ich)$/);
   if (!matches) return '';
   return matches[1].substring(0, 100); // truncate project title to max 100 chars
 };
@@ -24178,7 +24178,7 @@ const getProjectFilename = (curTitle, defaultTitle) => {
     filenameTitle = defaultTitle;
   }
 
-  return "".concat(filenameTitle.substring(0, 100), ".sb3");
+  return "".concat(filenameTitle.substring(0, 100), ".ich");
 };
 
 SB3Downloader.propTypes = {
@@ -36178,7 +36178,7 @@ const SBFileUploaderHOC = function SBFileUploaderHOC(WrappedComponent) {
       } else {
         // create <input> element and add it to DOM
         this.inputElement = document.createElement('input');
-        this.inputElement.accept = '.sb,.sb2,.sb3';
+        this.inputElement.accept = '.sb,.sb2,.sb3,.ich';
         this.inputElement.style = 'display: none;';
         this.inputElement.type = 'file';
         this.inputElement.onchange = this.handleChange; // connects to step 3
@@ -36220,7 +36220,7 @@ const SBFileUploaderHOC = function SBFileUploaderHOC(WrappedComponent) {
           const handle = thisFileInput.handle;
 
           if (handle) {
-            if (this.fileToUpload.name.endsWith('.sb3')) {
+            if (this.fileToUpload.name.endsWith('.ich')) {
               this.props.onSetFileHandle(handle);
             } else {
               this.props.onSetFileHandle(null);
@@ -36260,7 +36260,7 @@ const SBFileUploaderHOC = function SBFileUploaderHOC(WrappedComponent) {
       if (!fileInputFilename) return ''; // only parse title with valid scratch project extensions
       // (.sb, .sb2, and .sb3)
 
-      const matches = fileInputFilename.match(/^(.*)\.sb[23]?$/);
+      const matches = fileInputFilename.match(/^(.*)\.(sb[23]?|ich)$/);
       if (!matches) return '';
       return matches[1].substring(0, 100); // truncate project title to max 100 chars
     } // step 6: attached as a handler on our FileReader object; called when
@@ -37254,9 +37254,9 @@ const available = () => !!window.showSaveFilePicker;
 const showSaveFilePicker = fileName => window.showSaveFilePicker({
   suggestedName: fileName,
   types: [{
-    description: 'Scratch 3 Project',
+    description: 'Itch Project',
     accept: {
-      'application/x.scratch.sb3': '.sb3'
+      'application/x.itch.ich': '.ich'
     }
   }],
   excludeAcceptAllOption: true
@@ -37266,6 +37266,11 @@ const showOpenFilePicker = async () => {
   const [handle] = await window.showOpenFilePicker({
     multiple: false,
     types: [{
+      description: 'Itch Project',
+      accept: {
+        'application/x.itch.ich': '.ich'
+      }
+    }, {
       description: 'Scratch Project',
       accept: {
         'application/x.scratch.sb3': ['.sb', '.sb2', '.sb3']
