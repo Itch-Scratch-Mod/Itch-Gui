@@ -50,7 +50,7 @@ const PackagerIntegrationHOC = function (WrappedComponent) {
             this.props.vm.saveProjectSb3()
                 .then(readBlobAsArrayBuffer)
                 .then(buffer => {
-                    const name = `${this.props.reduxProjectTitle}.sb3`;
+                    const name = `${this.props.reduxProjectTitle}.ich`;
                     e.source.postMessage({
                         p4: {
                             type: 'finish-import',

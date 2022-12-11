@@ -4,9 +4,9 @@ const showSaveFilePicker = fileName => window.showSaveFilePicker({
     suggestedName: fileName,
     types: [
         {
-            description: 'Scratch 3 Project',
+            description: 'Itch Project',
             accept: {
-                'application/x.scratch.sb3': '.sb3'
+                'application/x.itch.ich': '.ich'
             }
         }
     ],
@@ -17,6 +17,12 @@ const showOpenFilePicker = async () => {
     const [handle] = await window.showOpenFilePicker({
         multiple: false,
         types: [
+            {
+                description: 'Itch Project',
+                accept: {
+                    'application/x.itch.ich': '.ich'
+                }
+            },
             {
                 description: 'Scratch Project',
                 accept: {
