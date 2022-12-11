@@ -33535,8 +33535,7 @@ __webpack_require__.r(__webpack_exports__);
     defaultMessage: "Blocks for reading and creating files.",
     id: "jgFiles.jgFilesExtension.description"
   }),
-  featured: true,
-  incompatibleWithScratch: true
+  featured: true
 }, {
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Website Request Blocks",
@@ -33549,8 +33548,7 @@ __webpack_require__.r(__webpack_exports__);
     id: "jgWebsiteRequests.jgWebsiteRequestsExtension.description"
   }),
   featured: true,
-  internetConnectionRequired: true,
-  incompatibleWithScratch: true
+  internetConnectionRequired: true
 }, {
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "JSON Blocks",
@@ -33562,8 +33560,7 @@ __webpack_require__.r(__webpack_exports__);
     defaultMessage: "Blocks for handling JSON objects. Arrays are not supported yet.",
     id: "jgJSON.jgJSONExtension.description"
   }),
-  featured: true,
-  incompatibleWithScratch: true
+  featured: true
 }, {
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Unite",
@@ -33576,8 +33573,7 @@ __webpack_require__.r(__webpack_exports__);
     defaultMessage: "Useful blocks that should of been added to scratch already",
     id: "jwUnite.jwUniteExtension.description"
   }),
-  featured: true,
-  incompatibleWithScratch: true
+  featured: true
 }, {
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Proto",
@@ -33589,8 +33585,7 @@ __webpack_require__.r(__webpack_exports__);
     defaultMessage: "Labelling, Placeholders and Defenitions packed into one sweet extension",
     id: "jwProto.jwProtoExtension.description"
   }),
-  featured: true,
-  incompatibleWithScratch: true
+  featured: true
 }, {
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Structs",
@@ -33603,8 +33598,7 @@ __webpack_require__.r(__webpack_exports__);
     defaultMessage: "Structs for struct things. Useful for OOP.",
     id: "jwStructs.jwStructsExtension.description"
   }),
-  featured: true,
-  incompatibleWithScratch: true
+  featured: true
 },
 /*{
     name: (
@@ -33625,7 +33619,6 @@ __webpack_require__.r(__webpack_exports__);
         />
     ),
     featured: true,
-    incompatibleWithScratch: true
 },*/
 {
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
@@ -33639,8 +33632,7 @@ __webpack_require__.r(__webpack_exports__);
     id: "jgPrism.jgPrismExtension.description"
   }),
   featured: true,
-  internetConnectionRequired: true,
-  incompatibleWithScratch: true
+  internetConnectionRequired: true
 }, {
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "Runtime tools",
@@ -33653,8 +33645,7 @@ __webpack_require__.r(__webpack_exports__);
     id: "jgRuntime.jgRuntimeExtension.description"
   }),
   featured: true,
-  internetConnectionRequired: true,
-  incompatibleWithScratch: true
+  internetConnectionRequired: true
 }, {
   name: 'Physics',
   extensionId: 'griffpatch',
@@ -33678,8 +33669,7 @@ __webpack_require__.r(__webpack_exports__);
     defaultMessage: "Weird new blocks. Not compatible with Scratch.",
     id: "tw.twExtension.description"
   }),
-  featured: true,
-  incompatibleWithScratch: true
+  featured: true
 }, {
   name: 'micro:bit',
   extensionId: 'microbit',
