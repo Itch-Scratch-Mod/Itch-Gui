@@ -161,28 +161,28 @@ module.exports = [
                 chunks: ['editor'],
                 template: 'src/playground/index.ejs',
                 filename: 'editor.html',
-                title: 'PenguinMod - A mod of TurboWarp',
+                title: 'Itch - Advancing scratch capabilities',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['player'],
                 template: 'src/playground/index.ejs',
                 filename: 'index.html',
-                title: 'PenguinMod - A mod of TurboWarp',
+                title: 'Itch - Advancing scratch capabilities',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['fullscreen'],
                 template: 'src/playground/index.ejs',
                 filename: 'fullscreen.html',
-                title: 'PenguinMod - A mod of TurboWarp',
+                title: 'Itch - Advancing scratch capabilities',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['embed'],
                 template: 'src/playground/index.ejs',
                 filename: 'embed.html',
-                title: 'Embedded Project - PenguinMod',
+                title: 'Embedded Project - Itch',
                 noTheme: true,
                 ...htmlWebpackPluginCommon
             }),
@@ -190,14 +190,14 @@ module.exports = [
                 chunks: ['addon-settings'],
                 template: 'src/playground/simple.ejs',
                 filename: 'addons.html',
-                title: 'Addon Settings - PenguinMod',
+                title: 'Addon Settings - Itch',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['credits'],
                 template: 'src/playground/simple.ejs',
                 filename: 'credits.html',
-                title: 'PenguinMod & TurboWarp Credits',
+                title: 'Itch, PenguinMod & TurboWarp Credits',
                 noSplash: true,
                 ...htmlWebpackPluginCommon
             }),

@@ -884,14 +884,14 @@ class MenuBar extends React.Component {
                     <div className={styles.menuBarItem}>
                         <a
                             className={styles.feedbackLink}
-                            href="https://scratch.mit.edu/discuss/topic/636814/"
+                            href="about:blank"
                             rel="noopener noreferrer"
                             target="_blank"
                         >
                             {/* todo: icon */}
                             <Button className={styles.feedbackButton}>
                                 <FormattedMessage
-                                    defaultMessage="PenguinMod Feedback"
+                                    defaultMessage="Itch Feedback"
                                     description="Button to give feedback in the menu bar"
                                     id="tw.feedbackButton"
                                 />

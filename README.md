@@ -1,4 +1,4 @@
-scratch-gui modified for use in [TurboWarp](https://turbowarp.org/) then modified for use in [PenguinMod](https://penguinmod.github.io/PenguinMod-Gui/) 😀
+scratch-gui modified for use in [TurboWarp](https://turbowarp.org/), then modified for use in [PenguinMod](https://penguinmod.github.io/PenguinMod-Gui/) and finally modified for use in [Itch](about:blank) 😀
 
 ## Setup
 

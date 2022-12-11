@@ -98,8 +98,8 @@ const Footer = () => (
             <div className={styles.footerText}>
                 <FormattedMessage
                     // eslint-disable-next-line max-len
-                    defaultMessage="PenguinMod and TurboWarp are not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
-                    description="Disclaimer that PenguinMod and TurboWarp are not connected to Scratch"
+                    defaultMessage="Itch, PenguinMod and TurboWarp are not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
+                    description="Disclaimer that Itch, PenguinMod and TurboWarp are not connected to Scratch"
                     id="tw.footer.disclaimer"
                 />
             </div>
@@ -198,9 +198,9 @@ class Interface extends React.Component {
     }
     handleUpdateProjectTitle(title, isDefault) {
         if (isDefault || !title) {
-            document.title = `PenguinMod - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
+            document.title = `Itch - ${this.props.intl.formatMessage(messages.defaultTitle)}`;
         } else {
-            document.title = `${title} - PenguinMod`;
+            document.title = `${title} - Itch`;
         }
     }
     render() {
@@ -333,8 +333,8 @@ class Interface extends React.Component {
                                 <p>
                                     <FormattedMessage
                                         // eslint-disable-next-line max-len
-                                        defaultMessage="PenguinMod is a mod of TurboWarp to add new blocks and features. TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below."
-                                        description="Description of PenguinMod and TurboWarp"
+                                        defaultMessage="Itch is a mod of PenguinMod which adds the most advanced features no other scratch mod has! PenguinMod is a mod of TurboWarp to add new blocks and features. TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below."
+                                        description="Description of Itch, PenguinMod, TurboWarp"
                                         id="tw.home.description"
                                     />
                                 </p>

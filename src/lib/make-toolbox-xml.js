@@ -749,7 +749,7 @@ const myBlocks = function () {
 // eslint-disable-next-line max-len
 const extraTurboWarpBlocks = `
 <block type="argument_reporter_boolean"><field name="VALUE">is compiled?</field></block>
-<block type="argument_reporter_boolean"><field name="VALUE">is PenguinMod or TurboWarp?</field></block>
+<block type="argument_reporter_boolean"><field name="VALUE">is Itch, PenguinMod or TurboWarp?</field></block>
 `;
 /* eslint-enable no-unused-vars */
 
