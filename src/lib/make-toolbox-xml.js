@@ -16,7 +16,7 @@ const translate = (id, english) => {
 const motion = function (isInitialSetup, isStage, targetId) {
     const stageSelected = translate(
         'MOTION_STAGE_SELECTED',
-        'Stage selected: no motion blocks'
+        'Motion blocks are unavailable for stage'
     );
     return `
     <category name="%{BKY_CATEGORY_MOTION}" id="motion" colour="#4C97FF" secondaryColour="#3373CC">
@@ -87,6 +87,18 @@ const motion = function (isInitialSetup, isStage, targetId) {
             </value>
             <value name="Y">
                 <shadow id="glidey" type="math_number">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="motion_distancetoxy">
+            <value name="X">
+                <shadow id="distancex" type="math_number">
+                    <field name="NUM">0</field>
+                </shadow>
+            </value>
+            <value name="Y">
+                <shadow id="distancey" type="math_number">
                     <field name="NUM">0</field>
                 </shadow>
             </value>
@@ -203,6 +215,7 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
                 </shadow>
             </value>
         </block>
+        <block type="looks_clearspeech"/>
         ${blockSeparator}
         `}
         ${isStage ? `
