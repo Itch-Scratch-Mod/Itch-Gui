@@ -33392,6 +33392,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _penguinmod_extensions_griffpatch_physics_png__WEBPACK_IMPORTED_MODULE_43___default = /*#__PURE__*/__webpack_require__.n(_penguinmod_extensions_griffpatch_physics_png__WEBPACK_IMPORTED_MODULE_43__);
 /* harmony import */ var _penguinmod_extensions_griffpatch_physicsIcon_svg__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./penguinmod/extensions/griffpatch_physicsIcon.svg */ "./src/lib/libraries/extensions/penguinmod/extensions/griffpatch_physicsIcon.svg");
 /* harmony import */ var _penguinmod_extensions_griffpatch_physicsIcon_svg__WEBPACK_IMPORTED_MODULE_44___default = /*#__PURE__*/__webpack_require__.n(_penguinmod_extensions_griffpatch_physicsIcon_svg__WEBPACK_IMPORTED_MODULE_44__);
+/* harmony import */ var _itch_typescratch_icon_png__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./itch/typescratch/icon.png */ "./src/lib/libraries/extensions/itch/typescratch/icon.png");
+/* harmony import */ var _itch_typescratch_icon_png__WEBPACK_IMPORTED_MODULE_45___default = /*#__PURE__*/__webpack_require__.n(_itch_typescratch_icon_png__WEBPACK_IMPORTED_MODULE_45__);
+/* harmony import */ var _itch_typescratch_thumb_png__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./itch/typescratch/thumb.png */ "./src/lib/libraries/extensions/itch/typescratch/thumb.png");
+/* harmony import */ var _itch_typescratch_thumb_png__WEBPACK_IMPORTED_MODULE_46___default = /*#__PURE__*/__webpack_require__.n(_itch_typescratch_thumb_png__WEBPACK_IMPORTED_MODULE_46__);
 
 
 
@@ -33441,6 +33445,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
  // griffpatch stuff that hopefully we can keep pls plsplspl !!S!
+
+
 
 
 
@@ -33659,6 +33665,18 @@ __webpack_require__.r(__webpack_exports__);
   featured: true,
   disabled: false
 }, {
+  name: 'TypeScratch',
+  extensionId: 'typescratch',
+  collaborator: 'jwklong',
+  iconURL: _itch_typescratch_thumb_png__WEBPACK_IMPORTED_MODULE_46___default.a,
+  insetIconURL: _itch_typescratch_icon_png__WEBPACK_IMPORTED_MODULE_45___default.a,
+  description: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
+    defaultMessage: "Brings all the sweet dynamic type support from TypeScript to your project!",
+    id: "gui.extension.typescratch.description"
+  }),
+  featured: true,
+  disabled: true
+}, {
   name: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"], {
     defaultMessage: "TurboWarp Blocks",
     id: "tw.twExtension.name"
@@ -33800,6 +33818,28 @@ __webpack_require__.r(__webpack_exports__);
   }),
   featured: true
 }]);
+
+/***/ }),
+
+/***/ "./src/lib/libraries/extensions/itch/typescratch/icon.png":
+/*!****************************************************************!*\
+  !*** ./src/lib/libraries/extensions/itch/typescratch/icon.png ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/1e56714970f8467a2a24c668a5245f5c.png";
+
+/***/ }),
+
+/***/ "./src/lib/libraries/extensions/itch/typescratch/thumb.png":
+/*!*****************************************************************!*\
+  !*** ./src/lib/libraries/extensions/itch/typescratch/thumb.png ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/assets/3afebdab6c8f3593481192b239373785.png";
 
 /***/ }),
 
