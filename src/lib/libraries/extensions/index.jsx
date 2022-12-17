@@ -69,6 +69,9 @@ import textExtensionIcon from './penguinmod/extensions/textext.png'
 import griffpatchPhysicsThumb from './penguinmod/extensions/griffpatch_physics.png'
 import griffpatchPhysicsIcon from './penguinmod/extensions/griffpatch_physicsIcon.svg'
 
+import typescratchIcon from  './itch/typescratch/icon.png'
+import typescratchThumb from  './itch/typescratch/thumb.png'
+
 export default [
     {
         name: (
@@ -381,6 +384,22 @@ export default [
         ),
         featured: true,
         disabled: false
+    },
+    {
+        name: 'TypeScratch',
+        extensionId: 'typescratch',
+        collaborator: 'jwklong',
+        iconURL: typescratchThumb,
+        insetIconURL: typescratchIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Brings all the sweet dynamic type support from TypeScript to your project!"
+                description="Description for the 'TypeScratch' extension"
+                id="gui.extension.typescratch.description"
+            />
+        ),
+        featured: true,
+        disabled: true
     },
     {
         name: (
