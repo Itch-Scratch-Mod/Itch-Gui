@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import appTarget from '../app-target';
 import styles from './credits.css';
-import {getInitialDarkMode} from '../../lib/tw-theme-hoc.jsx';
+import { getInitialDarkMode } from '../../lib/tw-theme-hoc.jsx';
 
 import fosshostLogo from './fosshost-light.png';
 import UserData from './users';
@@ -12,7 +12,7 @@ import UserData from './users';
 
 document.documentElement.lang = 'en';
 
-const User = ({image, text, href}) => (
+const User = ({ image, text, href }) => (
     <a
         href={href}
         target="_blank"
@@ -36,7 +36,7 @@ User.propTypes = {
     href: PropTypes.string
 };
 
-const UserList = ({users}) => (
+const UserList = ({ users }) => (
     <div className={styles.users}>
         {users.map((data, index) => (
             <User
@@ -52,6 +52,16 @@ UserList.propTypes = {
 
 const Credits = () => (
     <main className={styles.main}>
+        <header className={styles.headerContainer}>
+            <h1 className={styles.headerText}>
+                Itch Credits
+            </h1>
+        </header>
+        <section>
+            <p>
+                Coming Soon!
+            </p>
+        </section>
         <header className={styles.headerContainer}>
             <h1 className={styles.headerText}>
                 TurboWarp Credits

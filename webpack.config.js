@@ -161,7 +161,7 @@ module.exports = [
                 chunks: ['editor'],
                 template: 'src/playground/index.ejs',
                 filename: 'editor.html',
-                title: 'Itch - Advancing scratch capabilities',
+                title: 'Itch - Editor',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
@@ -182,7 +182,7 @@ module.exports = [
                 chunks: ['embed'],
                 template: 'src/playground/index.ejs',
                 filename: 'embed.html',
-                title: 'Embedded Project - Itch',
+                title: 'Itch - Embed',
                 noTheme: true,
                 ...htmlWebpackPluginCommon
             }),
@@ -190,7 +190,7 @@ module.exports = [
                 chunks: ['addon-settings'],
                 template: 'src/playground/simple.ejs',
                 filename: 'addons.html',
-                title: 'Addon Settings - Itch',
+                title: 'Itch - Addons',
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({

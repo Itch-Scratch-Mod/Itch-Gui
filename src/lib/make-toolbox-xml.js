@@ -91,18 +91,6 @@ const motion = function (isInitialSetup, isStage, targetId) {
                 </shadow>
             </value>
         </block>
-        <block type="motion_distancetoxy">
-            <value name="X">
-                <shadow id="distancex" type="math_number">
-                    <field name="NUM">0</field>
-                </shadow>
-            </value>
-            <value name="Y">
-                <shadow id="distancey" type="math_number">
-                    <field name="NUM">0</field>
-                </shadow>
-            </value>
-        </block>
         ${blockSeparator}
         <block type="motion_pointindirection">
             <value name="DIRECTION">
@@ -787,7 +775,6 @@ const myBlocks = function () {
 // eslint-disable-next-line max-len
 const extraTurboWarpBlocks = `
 <block type="argument_reporter_boolean"><field name="VALUE">is compiled?</field></block>
-<block type="argument_reporter_boolean"><field name="VALUE">is Itch, PenguinMod or TurboWarp?</field></block>
 `;
 /* eslint-enable no-unused-vars */
 
